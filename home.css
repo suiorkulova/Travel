@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Volkhov&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 1920px;
+  height: 1990px;
+  background-image: url(./img/Rectangle\ 19381.png);
+}
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+.aaaaa {
+  color: #fff;
+  font-size: 40px;
+  font-family: Volkhov;
+}
+.div_a {
+  color: #fff;
+  font-size: 17px;
+  display: flex;
+  gap: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 390px;
+}
+.btn {
+  width: 152px;
+  height: 58px;
+  background-color: #df6951;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+.img1 {
+  position: relative;
+  right: 1555px;
+  top: 25px;
+}
+.navs {
+  width: 542px;
+  height: 736px;
+  border-radius: 12.146px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+.nav-h1 {
+  color: #181e4b;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41px;
+  position: relative;
+  top: 50px;
+}
+.box1 {
+  width: 467.347px;
+  height: 79.819px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-left: 30px;
+  color: rgba(0, 0, 0, 0.59);
+  font-family: Poppins;
+  font-size: 12px;
+  padding: 15px;
+}
+.nav-p {
+  color: var(--text-heading-color, #1e1d4c);
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.images {
+  position: relative;
+  left: 410px;
+  bottom: 30px;
+}
+
+.box2 {
+  width: 467.347px;
+  height: 79.819px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: rgba(0, 0, 0, 0.59);
+  font-family: Poppins;
+  font-size: 12px;
+  padding: 15px;
+}
+.nav-p2 {
+  color: var(--text-heading-color, #1e1d4c);
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.images2 {
+  position: relative;
+  left: 410px;
+  bottom: 30px;
+}
+.navs-p {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.box3 {
+  width: 467.347px;
+  height: 79.819px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: rgba(0, 0, 0, 0.59);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 15px;
+}
+.box3_p {
+  color: var(--text-heading-color, #1e1d4c);
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.images3 {
+  position: relative;
+  left: 110px;
+  bottom: 20px;
+}
+.enddate {
+  color: rgba(0, 0, 0, 0.59);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 140px;
+  margin-top: -40px;
+}
+.hrs {
+  width: 0.578px;
+  height: 79.819px;
+  background: #000;
+  margin-left: 300px;
+  margin-top: -57px;
+  border: none;
+}
+.guests {
+  color: rgba(0, 0, 0, 0.59);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 330px;
+  margin-top: -65px;
+}
+.adults2 {
+  color: var(--text-heading-color, #1e1d4c);
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 325px;
+  margin-top: 7px;
+}
+.chevron {
+  position: relative;
+  left: 410px;
+  bottom: 40px;
+}
+.optionals {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.container-checkboxs {
+  display: flex;
+  margin-top: -20px;
+}
+
+.main-checboxs {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.59);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+.buutton {
+  width: 171.785px;
+  height: 43.958px;
+  border-radius: 5px;
+  background-color: #df6951;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-left: 170px;
+  margin-top: 25px;
+}
